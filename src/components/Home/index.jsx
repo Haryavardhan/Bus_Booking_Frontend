@@ -92,7 +92,7 @@ const Home = () => {
 
         {error && <p className="error">{error}</p>}
 {
-  bus.length === 0 && <p>No Buses Available</p>
+  buses.length === 0 && <p>No Buses Available</p>
 }
         {buses.length > 0 && (
           <div className="bus-results">
